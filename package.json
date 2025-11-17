@@ -1,0 +1,23 @@
+{
+  "name": "beginner-ci",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ayoub-45/Beginner-CI#readme",
+  "bugs": {
+    "url": "https://github.com/Ayoub-45/Beginner-CI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayoub-45/Beginner-CI.git"
+  },
+  "license": "ISC",
+  "author": "ayoub nasraoui",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
