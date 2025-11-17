@@ -15,7 +15,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "jest": "^29.7.0"
@@ -23,6 +24,8 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
   }
 }
