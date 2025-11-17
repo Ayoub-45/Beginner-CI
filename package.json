@@ -12,7 +12,7 @@
   },
   "license": "ISC",
   "author": "ayoub nasraoui",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -25,6 +25,7 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "nodemon": "^3.1.11",
+    "supertest": "^7.1.4",
     "webpack": "^5.102.1",
     "webpack-cli": "^6.0.1"
   }
