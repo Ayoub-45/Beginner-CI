@@ -16,7 +16,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack --config webpack.config.js"
+    "build":"webpack --config webpack.config.js",
+    "start":"node start"
   },
   "devDependencies": {
     "@babel/core": "^7.28.5",
